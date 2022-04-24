@@ -1,0 +1,69 @@
+.body
+{
+
+  background-color:powderblue;
+}
+
+.responsive
+{
+width:100%;
+height:auto;}
+h4{ font-family: sans-serif;
+font-style:Italic;}
+h1{font-family: 'Ubunto', serif;}
+p{font-family:font-family: 'kufam', serif;;}
+
+copyright
+{font-style:font-family: 'Aton', serif;;}
+.logo{
+  witdh:60%;
+}
+.logo1{
+  position: relative;
+  bottom:150px;
+  left: 50px;
+  witdh:60%;
+}
+#first-page{
+  padding: 10%
+}
+.row-1
+{
+  padding-top: 150px;
+  padding-left: 400px;
+}
+.row-2
+{
+
+  padding-top: 10px;
+  padding-left: 200px;}
+
+  .icon
+  {
+
+  width: 170px;
+  position: relative;
+  color:black;
+  background: transparent;
+  justify-content: center;
+  }
+  #pricing
+  {
+    padding: 100px;
+  }
+
+  @media (max-width:1028px){
+
+  #first-page{
+    text-align: center;
+  }
+  .logo1
+  {
+      transform: rotate(35deg);
+    padding: 10%;
+    width: 300px;
+    height: 300px;
+  position: static;
+  right: 100%
+  }
+  }
